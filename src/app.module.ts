@@ -22,7 +22,7 @@ import { joiValidationSchema } from './configuration/joi.validation';
       rootPath: join(__dirname, '..', 'public'),
     }),
     // mongoose module
-    MongooseModule.forRoot(process.env.url_mongo, {
+    MongooseModule.forRoot(process.env.URL_MONGO, {
       dbName: 'pokemons',
     }),
     // app modules modules
